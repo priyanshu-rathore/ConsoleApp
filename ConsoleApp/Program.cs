@@ -1,10 +1,19 @@
 ﻿namespace ConsoleApp
 {
-    internal class Program
+  class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Calculator calculator = new Calculator();
+
+            int sum, sub, div, mul,a,b;
+
+            a = 1; b = 2;   
+
+            calculator.Sum(a,b);
+            calculator.Sub(a,b);
+            calculator.div(a,b);
+            calculator.mul(a,b);
         }
     }
 }
