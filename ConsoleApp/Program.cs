@@ -26,7 +26,11 @@ namespace ConsoleApp
 
             //Palindrome.numPalindrome();
 
-            Palindrome.StringPalindrome();
+            //Palindrome.StringPalindrome();
+
+            //Fibonacci.fib();
+
+            SumOfNnum.sum();
         }
     }
 }
