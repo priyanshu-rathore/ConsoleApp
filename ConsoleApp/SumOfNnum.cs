@@ -20,6 +20,8 @@ namespace ConsoleApp
                 sum = sum + i;
                 
             }
+
+            Console.Write(sum);
             
 
         }
