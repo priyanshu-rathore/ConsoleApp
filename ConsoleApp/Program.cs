@@ -30,7 +30,9 @@ namespace ConsoleApp
 
             //Fibonacci.fib();
 
-            SumOfNnum.sum();
+            //SumOfNnum.sum();
+
+            Factorial.Fact();
         }
     }
 }
