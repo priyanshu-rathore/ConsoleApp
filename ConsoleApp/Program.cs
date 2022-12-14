@@ -32,7 +32,9 @@ namespace ConsoleApp
 
             //SumOfNnum.sum();
 
-            Factorial.Fact();
+            //Factorial.Fact();
+
+            SwitchCase.switchCase();
         }
     }
 }

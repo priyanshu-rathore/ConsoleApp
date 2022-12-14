@@ -8,8 +8,9 @@ namespace ConsoleApp
 {
     internal class ReverseProgram
     {
-        public static int ReverseNumber(int num)
+        public static void ReverseNumber()
         {
+            int num = Convert.ToInt32(Console.ReadLine());
             int rev = 0;
 
             while(num > 0)
@@ -17,17 +18,18 @@ namespace ConsoleApp
                 rev = rev * 10 + num % 10;
                 num /= 10;
             }
-            return rev;
+            Console.WriteLine(rev);
         }
 
-        public static String ReverseString(String word) {
+        public static void ReverseString() {
+            String word = Console.ReadLine();
             char[] chars = word.ToCharArray();
             String rev = "";
             for(int i=0;i<chars.Length;i++)
             {
                 rev = chars[i] + rev;
             }
-            return rev;
+            Console.WriteLine(rev);
         }
     }
 }
